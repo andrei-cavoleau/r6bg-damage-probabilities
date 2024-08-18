@@ -1,0 +1,27 @@
+{
+  "name": "r6bg-damage-probabilities",
+  "version": "0.0.1",
+  "description": "Functions to calculate damage probabilities in \"6: The boardgame\" based on the video game \"Rainbow 6: Siege\"",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreï Cavoleau",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/node": "^22.2.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "dependencies": {
+    "r6bg-damage-probabilities": "file:d:/Perso/Projects/r6bg/r6bg-damage-probabilities/r6bg-damage-probabilities-0.0.1.tgz"
+  }
+}
